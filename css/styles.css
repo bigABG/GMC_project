@@ -46,10 +46,10 @@ p {
 
 /* Styling for page content container */
 .container {
-  max-width: 1300px;
+  max-width: 14000px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* Styling for rows of content */
@@ -326,78 +326,166 @@ h4 {
   }
   
 
-/* Account Page */
+/* Styling for the account page */
 
+/* Set padding and background gradient */
 .account-page {
-    padding: 50px 0;
-    background: radial-gradient(#fff, #ffd6d6);
-  }
-  .form-container {
-    background: #fff;
-    width: 300px;
-    height: 400px;
-    position: relative;
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .form-container span {
-    font-weight: bold;
-    padding: 0 10px;
-    color: #555;
-    cursor: pointer;
-    width: 100px;
-    display: inline-block;
-  }
-  
-  .form-btn {
-    display: inline-block;
-  }
-  .form-container form {
-    max-width: 300px;
-    padding: 0 20px;
-    position: absolute;
-    top: 130px;
-    transition: transform 1s;
-  }
-  form input {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 30px;
-    margin: 10px 0;
-    padding: 0 10px;
-    border: 1px solid #ccc;
-  }
-  
-  form .btn {
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-  }
-  form .btn:focus {
-    outline: none;
-  }
-  
-  #LoginForm {
-    left: -300px;
-  }
-  #RegForm {
-    left: 0;
-  }
-  
-  form a {
-    font-size: 12px;
-  }
-  #indicator {
-    width: 100px;
-    border: none;
-    background: #ff523b;
-    height: 3px;
-    margin-top: 8px;
-    transform: translateX(100px);
-    transition: transform 1s;
-  }
+  padding: 50px 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+/* Styling for the form container */
+.form-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Styling for clickable elements inside the form container */
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+
+/* Styling for buttons within the form container */
+.form-btn {
+  display: inline-block;
+}
+
+/* Styling for the forms */
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s; /* Add sliding animation to the forms */
+}
+
+/* Styling for input fields within the forms */
+form input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for buttons within the forms */
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Remove the focus outline from buttons when focused */
+form .btn:focus {
+  outline: none;
+}
+
+/* Set initial position for login and registration forms */
+#LoginForm {
+  left: -300px;
+}
+#RegForm {
+  left: 0;
+}
+
+/* Styling for links within the forms */
+form a {
+  font-size: 12px;
+}
+
+/* Styling for the indicator that moves along with the forms */
+#indicator {
+  width: 100px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px); /* Set initial position for the indicator */
+  transition: transform 1s; /* Add sliding animation to the indicator */
+}
+
+  /* Styling for the Contact Page */
+
+/* Set padding for the contact page */
+.contact-page {
+  padding: 50px 0;
+}
+
+/* Styling for the main heading on the contact page */
+.contact-page h1 {
+  font-size: 36px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Styling for paragraph text on the contact page */
+.contact-page p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Styling for the contact information section */
+.contact-info {
+  margin-top: 20px;
+}
+
+/* Styling for individual contact information items */
+.contact-info div {
+  margin-bottom: 10px;
+}
+
+/* Styling for icons used in contact information */
+.contact-info .fa {
+  font-size: 20px;
+  color: #ff523b;
+  margin-right: 10px;
+}
+
+/* Styling for text in the contact information section */
+.contact-info span {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Styling for the contact form */
+.contact-page form {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* Styling for input fields and textarea in the contact form */
+.contact-page input,
+.contact-page textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the textarea in the contact form */
+.contact-page textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+/* Styling for buttons in the contact form */
+.contact-page .btn {
+  width: 100%;
+}
+/* Adjust other styles as needed */
