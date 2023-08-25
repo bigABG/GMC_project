@@ -417,7 +417,7 @@ form a {
   transition: transform 1s; /* Add sliding animation to the indicator */
 }
 
-  /* Styling for the Contact Page */
+/* Styling for the Contact Page */
 
 /* Set padding for the contact page */
 .contact-page {
@@ -491,4 +491,3 @@ form a {
 .contact-page .btn {
   width: 100%;
 }
-/* Adjust other styles as needed */
